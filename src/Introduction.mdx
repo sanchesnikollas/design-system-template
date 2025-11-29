@@ -1,0 +1,76 @@
+{/* Introduction.mdx */}
+
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Introduction" />
+
+# Design System Template
+
+Bem-vindo ao Design System Template! Este é um modelo de design system vivo, projetado para ser facilmente customizado e integrado com o Figma.
+
+## Características
+
+- **Tokens sincronizados com Figma** via Tokens Studio
+- **Componentes React** acessíveis e testados
+- **Storybook** para documentação interativa
+- **CI/CD automatizado** com GitHub Actions
+- **Publicação no GitHub Packages** (registry privado)
+
+## Estrutura
+
+```
+design-system/
+├── tokens/              # Design tokens (sincronizados do Figma)
+├── src/
+│   ├── components/      # Componentes React
+│   ├── tokens/          # Tokens compilados (CSS, JS)
+│   └── styles/          # Estilos globais
+├── .storybook/          # Configuração do Storybook
+└── .github/workflows/   # CI/CD
+```
+
+## Como Usar
+
+### Instalação
+
+```bash
+npm install @seu-org/design-system
+# ou
+yarn add @seu-org/design-system
+```
+
+### Importar componentes
+
+```tsx
+import { Button, Input, Card } from '@seu-org/design-system';
+
+function App() {
+  return (
+    <Card>
+      <Input label="Nome" placeholder="Digite seu nome" />
+      <Button>Enviar</Button>
+    </Card>
+  );
+}
+```
+
+### Importar tokens CSS
+
+```css
+@import '@seu-org/design-system/css';
+```
+
+## Customização para Clientes
+
+Este template foi desenhado para ser forkado e customizado por cliente.
+
+### 1. Fork o repositório
+### 2. Conecte ao Figma do cliente via Tokens Studio
+### 3. Customize tokens e componentes conforme necessário
+### 4. Publique com o nome do cliente: `@seu-org/ds-cliente-x`
+
+## Links Úteis
+
+- [Tokens Studio](https://tokens.studio/) - Plugin Figma para tokens
+- [Style Dictionary](https://amzn.github.io/style-dictionary/) - Build de tokens
+- [Storybook](https://storybook.js.org/) - Documentação de componentes
