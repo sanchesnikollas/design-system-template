@@ -1,0 +1,71 @@
+/* Badge Component Styles */
+
+.badge {
+  /* Base styles */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--typography-font-family-sans, sans-serif);
+  border-radius: var(--border-radius-md, 8px);
+  transition: all var(--motion-duration-normal, 200ms) var(--motion-easing-ease-out, ease-out);
+}
+
+/* Variants */
+
+.default {
+  /* TODO: Customize default variant */
+  
+  
+  
+}
+
+.success {
+  /* TODO: Customize success variant */
+  
+  
+  
+}
+
+.warning {
+  /* TODO: Customize warning variant */
+  
+  
+  
+}
+
+.error {
+  /* TODO: Customize error variant */
+  
+  
+  
+}
+
+.info {
+  /* TODO: Customize info variant */
+  
+  
+  
+}
+
+/* Sizes */
+
+.sm {
+  padding: var(--spacing-1, 4px) var(--spacing-2, 8px);
+  font-size: var(--typography-font-size-sm, 14px);
+  
+  
+}
+
+.md {
+  
+  padding: var(--spacing-2, 8px) var(--spacing-4, 16px);
+  font-size: var(--typography-font-size-base, 16px);
+  
+}
+
+.lg {
+  
+  
+  padding: var(--spacing-3, 12px) var(--spacing-6, 24px);
+  font-size: var(--typography-font-size-lg, 18px);
+}

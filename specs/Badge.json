@@ -1,0 +1,16 @@
+{
+  "name": "Badge",
+  "description": "Badge para indicar status, contagem ou categorias",
+  "variants": ["default", "success", "warning", "error", "info"],
+  "sizes": ["sm", "md", "lg"],
+  "hasChildren": true,
+  "props": [
+    {
+      "name": "dot",
+      "type": "boolean",
+      "required": false,
+      "default": "false",
+      "description": "Mostra apenas um ponto colorido sem texto"
+    }
+  ]
+}

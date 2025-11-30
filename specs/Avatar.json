@@ -1,0 +1,27 @@
+{
+  "name": "Avatar",
+  "description": "Avatar para exibir imagem de usuário ou iniciais",
+  "variants": ["circle", "square"],
+  "sizes": ["xs", "sm", "md", "lg", "xl"],
+  "hasChildren": false,
+  "props": [
+    {
+      "name": "src",
+      "type": "string",
+      "required": false,
+      "description": "URL da imagem"
+    },
+    {
+      "name": "alt",
+      "type": "string",
+      "required": false,
+      "description": "Texto alternativo"
+    },
+    {
+      "name": "initials",
+      "type": "string",
+      "required": false,
+      "description": "Iniciais quando não há imagem"
+    }
+  ]
+}
